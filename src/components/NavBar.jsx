@@ -19,6 +19,9 @@ const NavBar = () => {
               <input type="text" className='h-8'/>
               <button className='bg-orange-300 w-[40px] h-8 rounded-r '><AiOutlineSearch className='fill-black'/></button>
             </div>
+            <div>
+              
+            </div>
         </div>
     </div>  
   )
