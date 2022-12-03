@@ -4,6 +4,11 @@ export const dropdown = [
     "Luggage", "Men's Fashion", "Movies & TV", "Music, CD's & Vinyl", "Pet Supplies", "Prime Video", "SoftWare", "Sports & outdoors"
 ]
 
+export const languages = [
+    'español - ES', 'العربية - AR', 'Deutsch - DE', 'עברית - HE', '한국어 - KO', 
+    'português - PT', '中文 (简体) - ZH', '中文 (繁體) - ZH'
+]
+
 
 export const images = [
     {
