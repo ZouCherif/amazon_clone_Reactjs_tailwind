@@ -10,6 +10,27 @@ export const languages = [
 ]
 
 
+export const listsAccount = [
+    {
+        name: 'Your Lists',
+        links: [
+            'Create a List', 'Find a List or Registry', 'AmazonSmile Charity Lists'
+        ]
+    },
+    {
+        name: 'Your Account',
+        links: [
+            'Account',
+            'Orders', 'Recommendations', 'Browsing History','Watchlist', 'Video Purchases & Rentals',
+           ' Kindle Unlimited',
+            'Content & Devices',
+           ' Subscribe & Save Items',
+            'Memberships & Subscriptions',
+            'Music Library'
+        ]
+    }
+]
+
 export const images = [
     {
         index: 1,
