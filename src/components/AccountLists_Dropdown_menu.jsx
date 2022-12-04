@@ -1,5 +1,6 @@
 import React from 'react'
 import StartHere from './StartHere'
+import {listsAccount} from '../data'
 
 function AccountLists_Dropdown_menu() {
   return (
@@ -10,7 +11,14 @@ function AccountLists_Dropdown_menu() {
       </div>
       <hr className='mt-2'/>
       <div>
-        <div></div>
+        <div className='mt-5'>
+          <h2 className='text-[18px] font-bold'>{listsAccount[0].name}</h2>
+          {listsAccount[0].links.map((link) => (
+            <div className='mt-2'>
+              <a href="#" className='text-[13px] text-[#444] hover:text-[#c29d40] hover:underline'>{link}</a>
+            </div>
+          ))}
+        </div>
         <div></div>
       </div>
     </div>
