@@ -24,7 +24,7 @@ const NavBar = () => {
               <select name="sections" id="sections" className='text-black w-[50px] rounded-l bg-slate-200 '>
                 {dropdown.map((opt) => <option value={opt}>{opt}</option> )}
               </select>
-              <input type="text" className='grow'/>
+              <input type="text" className='grow text-black pl-2 '/>
               <button className='bg-orange-300 w-[40px] rounded-r'><AiOutlineSearch className='fill-black'/></button>
             </div>
             <div className='flex items-center flex-none mr-4 hover:border-[1px] cursor-pointer p-2 relative' 
@@ -40,7 +40,7 @@ const NavBar = () => {
             >
               <p className='text-[12px]'>Hello, sign in</p>
               <p className='font-bold text-[14px]'>Account & Lists</p>
-              {true && <AccountLists_Dropdown_menu />}
+              {accountLists && <AccountLists_Dropdown_menu />}
             </div>
             <div className='flex-none mr-4 hover:border-[1px] cursor-pointer pt-2 px-1'>
               <p className='text-[12px]'>Returns</p>
