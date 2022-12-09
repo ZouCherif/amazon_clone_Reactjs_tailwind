@@ -15,7 +15,7 @@ const NavBar = () => {
 
   return (
     <div>
-        <div className='flex justify-around nav-bg w-full text-white p-[6px] h-[60px] leading-[15px]'>
+        <div className='flex justify-around bg-[#131921] w-full text-white p-[6px] h-[60px] leading-[15px]'>
             <div className='w-[120px] flex-none place-self-center border-[1px] border-transparent hover:border-white cursor-pointer'>
               <img src={logo} alt="Amazon" className='h-[30px] m-1'/>
             </div>
@@ -66,7 +66,7 @@ const NavBar = () => {
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'><p>Sell</p></div>
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1 ml-auto'><p>Shop great deals now</p></div>
         </div>
-        <SideBar isOpen={isOpen}/>
+        <SideBar isOpen={isOpen} />
         {isOpen && <div className={`z-10 absolute h-screen w-screen bg-black bg-opacity-80 top-0 right-0`} 
           onClick={() => setIsOpen(!isOpen)}>
         </div>}
