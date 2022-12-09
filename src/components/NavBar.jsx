@@ -7,10 +7,12 @@ import { BsList } from "react-icons/bs";
 import {HiOutlineLocationMarker} from "react-icons/hi"
 import LanguageDropdownMenu from './LanguageDropdownMenu'
 import AccountLists_Dropdown_menu from './AccountLists_Dropdown_menu';
-
+import { SideBar } from './SideBar';
 const NavBar = () => {
   const [language, setLanguage] = React.useState(false)
   const [accountLists, setaccountLists] = React.useState(false)
+  const [isOpen, setIsOpen] = React.useState(false)
+
   return (
     <div>
         <div className='flex justify-around nav-bg w-full text-white p-[6px] h-[60px] leading-[15px]'>
@@ -53,7 +55,8 @@ const NavBar = () => {
             </div>
         </div>
         <div className='flex p-[3px] pl-4 bg-[#232f3e] text-white h-fit text-[14px] font-bold'>
-          <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'>
+          <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'
+           onClick={() => setIsOpen(!isOpen)}>
             <p className='flex items-center'><BsList className='mr-[2px]' size={23} strokeWidth={0.4}/>All</p>
           </div>
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'><p>Today's Deals</p></div>
@@ -63,6 +66,10 @@ const NavBar = () => {
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'><p>Sell</p></div>
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1 ml-auto'><p>Shop great deals now</p></div>
         </div>
+        <SideBar isOpen={isOpen}/>
+        {isOpen && <div className={`z-10 absolute h-screen w-screen bg-black bg-opacity-80 top-0 right-0`} 
+          onClick={() => setIsOpen(!isOpen)}>
+        </div>}
     </div>  
   )
 }
