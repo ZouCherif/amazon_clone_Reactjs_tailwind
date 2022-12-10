@@ -5,10 +5,13 @@ import { AiOutlineSearch } from "react-icons/ai";
 import {CgShoppingCart} from "react-icons/cg"
 import { BsList } from "react-icons/bs";
 import {HiOutlineLocationMarker} from "react-icons/hi"
+import { GrClose } from "react-icons/gr";
 import LanguageDropdownMenu from './LanguageDropdownMenu'
 import AccountLists_Dropdown_menu from './AccountLists_Dropdown_menu';
 import { SideBar } from './SideBar';
 
+
+import { IoMdClose } from "react-icons/io";
 const NavBar = () => {
   const [language, setLanguage] = React.useState(false)
   const [accountLists, setaccountLists] = React.useState(false)
@@ -69,6 +72,7 @@ const NavBar = () => {
         </div>
         <div className={`transition-opacity duration-500 z-10 ${isOpen? "opacity-80": "opacity-0 hidden"} absolute h-screen w-screen bg-black top-0 right-0`}
           onClick={() => setIsOpen(!isOpen)}>
+            <IoMdClose style={{color: "white", position: "absolute", left: "350", cursor: "pointer", marginLeft: "7", marginTop: "10"}} size={35}/>
         </div>
         <SideBar isOpen={isOpen} />
     </div>  
