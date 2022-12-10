@@ -53,7 +53,7 @@ const NavBar = () => {
               <CgShoppingCart size={35}/>
               <p className='text-[14px] font-bold'>Cart</p>
             </div>
-        </div>
+        </div>  
         <div className='flex p-[3px] pl-4 bg-[#232f3e] text-white h-fit text-[14px] font-bold'>
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'
            onClick={() => setIsOpen(!isOpen)}>
@@ -67,9 +67,9 @@ const NavBar = () => {
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1 ml-auto'><p>Shop great deals now</p></div>
         </div>
         <SideBar isOpen={isOpen} />
-        {isOpen && <div className={`z-10 absolute h-screen w-screen bg-black bg-opacity-80 top-0 right-0`} 
+        <div className={`transition-opacity duration-500 ${isOpen? "opacity-80": "opacity-0"} z-10 absolute h-screen w-screen bg-black top-0 right-0`}
           onClick={() => setIsOpen(!isOpen)}>
-        </div>}
+        </div>
     </div>  
   )
 }
