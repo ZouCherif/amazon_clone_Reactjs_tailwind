@@ -8,6 +8,7 @@ import {HiOutlineLocationMarker} from "react-icons/hi"
 import LanguageDropdownMenu from './LanguageDropdownMenu'
 import AccountLists_Dropdown_menu from './AccountLists_Dropdown_menu';
 import { SideBar } from './SideBar';
+
 const NavBar = () => {
   const [language, setLanguage] = React.useState(false)
   const [accountLists, setaccountLists] = React.useState(false)
@@ -66,10 +67,10 @@ const NavBar = () => {
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'><p>Sell</p></div>
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1 ml-auto'><p>Shop great deals now</p></div>
         </div>
-        <SideBar isOpen={isOpen} />
-        <div className={`transition-opacity duration-500 ${isOpen? "opacity-80": "opacity-0"} z-10 absolute h-screen w-screen bg-black top-0 right-0`}
+        <div className={`transition-opacity duration-500 z-10 ${isOpen? "opacity-80": "opacity-0 hidden"} absolute h-screen w-screen bg-black top-0 right-0`}
           onClick={() => setIsOpen(!isOpen)}>
         </div>
+        <SideBar isOpen={isOpen} />
     </div>  
   )
 }
