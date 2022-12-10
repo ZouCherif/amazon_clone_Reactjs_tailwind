@@ -32,6 +32,7 @@ export const listsAccount = [
 ]
 
 
+
 export const sideBar = [
     {
         title: "Digital Content & Devices",
@@ -49,6 +50,16 @@ export const sideBar = [
                     'Automotive','Baby','Beauty and personal care',"Women's Fashion","Men's Fashion","Girls' Fashion","Boys' Fashion",'Health and Household','Home and Kitchen','Industrial and Scientific','Luggage','Movies & Television','Pet supplies','Software','Sports and Outdoors','Tools & Home Improvement','Toys and Games','Video Games',
 
                 ]
+            }
+        ]
+    },
+    {
+        title: "Programs & Features",
+        childs: [
+            'Gift Cards', '#FoundItOnAmazon', 'Amazon Live',
+            {
+                name: 'See All',
+                childs: ["International Shopping"]
             }
         ]
     }
