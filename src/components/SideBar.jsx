@@ -1,6 +1,7 @@
 import React from 'react'
 import {cart} from '../assets'
 import { sideBar } from '../data'
+import { IoIosArrowForward } from "react-icons/io";
 
 export const SideBar = (props) => {
   const profilIconStyle = {
@@ -18,9 +19,10 @@ export const SideBar = (props) => {
       <div className='h-[93.5%] overflow-scroll'>
         {sideBar.map((item)=>(
           <div>
-            <h2 className='font-bold'>{item.title}</h2>
+            <h2 className='font-bold pl-8 pt-4 pb-2'>{item.title}</h2>
             {item.childs.map((child)=>(
-              <div>{typeof child === 'string'? child:
+              <div>{typeof child === 'string'?
+               <div className='flex justify-between px-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'>{child} <IoIosArrowForward className='text-gray-500' size={20}/></div> :
                (<div>
                 {child.childs.map((item)=>(
                   <div>{item}</div>
