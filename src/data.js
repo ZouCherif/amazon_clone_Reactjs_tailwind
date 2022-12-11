@@ -31,29 +31,27 @@ export const listsAccount = [
     }
 ]
 
+export const SideBarContent1 =     {
+    title: "Digital Content & Devices",
+    childs: [
+        'Amazon Music', 'Kindle E-readers & Books', 'Amazon Appstore'
+    ]
+}
+export const SideBarContent2 =     {
+    title: 'Shop By Department',
+    childs: [
+        'Electronics', 'Computers', 'Smart Home', 'Arts & Crafts',
+        {
+            name: 'See All',
+            childs: [
+                'Automotive','Baby','Beauty and personal care',"Women's Fashion","Men's Fashion","Girls' Fashion","Boys' Fashion",'Health and Household','Home and Kitchen','Industrial and Scientific','Luggage','Movies & Television','Pet supplies','Software','Sports and Outdoors','Tools & Home Improvement','Toys and Games','Video Games',
 
+            ]
+        }
+    ]
+}
 
-export const sideBar = [
-    {
-        title: "Digital Content & Devices",
-        childs: [
-            'Amazon Music', 'Kindle E-readers & Books', 'Amazon Appstore'
-        ]
-    },
-    {
-        title: 'Shop By Department',
-        childs: [
-            'Electronics', 'Computers', 'Smart Home', 'Arts & Crafts',
-            {
-                name: 'See All',
-                childs: [
-                    'Automotive','Baby','Beauty and personal care',"Women's Fashion","Men's Fashion","Girls' Fashion","Boys' Fashion",'Health and Household','Home and Kitchen','Industrial and Scientific','Luggage','Movies & Television','Pet supplies','Software','Sports and Outdoors','Tools & Home Improvement','Toys and Games','Video Games',
-
-                ]
-            }
-        ]
-    },
-    {
+export const SideBarContent3 = {
         title: "Programs & Features",
         childs: [
             'Gift Cards', '#FoundItOnAmazon', 'Amazon Live',
@@ -63,7 +61,7 @@ export const sideBar = [
             }
         ]
     }
-]
+
 
 
 export const images = [
