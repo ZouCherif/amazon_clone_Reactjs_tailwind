@@ -9,6 +9,7 @@ export const SideBar = (props) => {
     backgroundPosition: '-137px -340px',
     backgroundSize: '350px'
   }
+  const [isShown, setIsShown] = React.useState(false)
 
   return (
     <div className={`z-20 absolute h-screen w-[350px] bg-white ${props.isOpen? 'translate-x-0' :'-translate-x-full'} ease-in-out duration-500 top-0 left-0`}>
@@ -24,10 +25,11 @@ export const SideBar = (props) => {
               <div>{typeof child === 'string'?
                <div className='flex justify-between px-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'>{child} <IoIosArrowForward className='text-gray-500' size={20}/></div> :
                (<div>
-                {child.childs.map((item)=>(
-                  <div>{item}</div>
+                {isShown && <hr className='w-[85%] mx-auto mb-1'/>}
+                {isShown && child.childs.map((item)=>(
+                  <div className='flex justify-between px-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'>{item} <IoIosArrowForward className='text-gray-500' size={20}/></div>
                   ))}
-                <h3>{child.name}</h3>
+                <h3 className='flex justify-between px-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]' onClick={()=>setIsShown(!isShown)}>{child.name}<IoIosArrowForward className='text-gray-500' size={20}/></h3>
                </div>
                )}</div>
             ))}
