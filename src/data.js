@@ -54,10 +54,10 @@ export const SideBarContent2 =     {
 export const SideBarContent3 = {
         title: "Programs & Features",
         childs: [
-            'Gift Cards', '#FoundItOnAmazon', 'Amazon Live',
+            'Gift Cards', '#FoundItOnAmazon', 'Amazon Live', 'International Shopping',
             {
                 name: 'See All',
-                childs: ["International Shopping"]
+                childs: ["Amazon Second Chance"]
             }
         ]
     }

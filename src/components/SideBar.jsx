@@ -22,14 +22,14 @@ export const SideBar = (props) => {
       </div>
       <div className='h-[93.5%] overflow-scroll'>
         <div>
-          <h2 className='font-bold pl-8 pt-4 pb-2'>{SideBarContent1.title}</h2>
+          <h2 className='font-bold text-[18px] pl-8 pt-4 pb-2'>{SideBarContent1.title}</h2>
           {SideBarContent1.childs.map((child)=>(
             <div className='flex justify-between pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'>{child} <IoIosArrowForward className='text-gray-500' size={20}/></div>)
           )}
         </div>
         <hr className='mt-1 border-t-[1px]'/>
         <div>
-          <h2 className='font-bold pl-8 pt-4 pb-2'>{SideBarContent2.title}</h2>
+          <h2 className='font-bold text-[18px] pl-8 pt-4 pb-2'>{SideBarContent2.title}</h2>
           {SideBarContent2.childs.map((child)=>{
             return(typeof child === 'string'?
             (<div className='flex justify-between pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'>{child} <IoIosArrowForward className='text-gray-500' size={20}/></div>)
@@ -38,13 +38,13 @@ export const SideBar = (props) => {
               {isShown1 && child.childs.map((item)=>(
                 <div className='flex justify-between pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'>{item} <IoIosArrowForward className='text-gray-500' size={20}/></div>
                 ))}
-              <h3 className='flex justify-between pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]' onClick={()=>setIsShown1(!isShown1)}>{child.name}<IoIosArrowForward className='text-gray-500' size={20}/></h3>
+              <h3 className='flex pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]' onClick={()=>setIsShown1(!isShown1)}>{child.name}<IoIosArrowForward className={`text-gray-500 ${isShown1? '-rotate-90': 'rotate-90'} ml-2`} size={20}/></h3>
              </div>))
           })}
         </div>
         <hr className='mt-1 border-t-[1px]'/>
         <div>
-          <h2 className='font-bold pl-8 pt-4 pb-2'>{SideBarContent3.title}</h2>
+          <h2 className='font-bold text-[18px] pl-8 pt-4 pb-2'>{SideBarContent3.title}</h2>
           {SideBarContent3.childs.map((child)=>{
             return(typeof child === 'string'?
             (<div className='flex justify-between pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'>{child} <IoIosArrowForward className='text-gray-500' size={20}/></div>)
@@ -53,13 +53,13 @@ export const SideBar = (props) => {
               {isShown2 && child.childs.map((item)=>(
                 <div className='flex justify-between pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'>{item} <IoIosArrowForward className='text-gray-500' size={20}/></div>
                 ))}
-              <h3 className='flex justify-between pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]' onClick={()=>setIsShown2(!isShown2)}>{child.name}<IoIosArrowForward className='text-gray-500' size={20}/></h3>
+              <h3 className='flex pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]' onClick={()=>setIsShown2(!isShown2)}>{child.name}<IoIosArrowForward className={`text-gray-500 ${isShown2? '-rotate-90': 'rotate-90'} ml-2`} size={20}/></h3>
              </div>))
           })}
         </div>
         <hr className='mt-1 border-t-[1px]'/>
         <div>
-          <h2 className='font-bold pl-8 pt-4 pb-2'>Help & Settings</h2>
+          <h2 className='font-bold text-[18px] pl-8 pt-4 pb-2'>Help & Settings</h2>
           <div className='flex pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'>Your Account</div>
           <div className='flex items-center pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'><TbWorld className='mr-2 text-gray-400' size={15}/> English</div>
           <div className='flex items-center pl-8 pr-6 py-[10px] hover:bg-gray-200 cursor-pointer text-[14px]'><img src={flag} alt="usa" className='w-[15px] h-[10px] mr-2'/>Unated States</div>
