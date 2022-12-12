@@ -28,7 +28,7 @@ const NavBar = () => {
               <p className='text-[12px] text-[#ccc]'>Deliver to <br /><span className='text-[14px] text-white font-bold'>Algeria</span></p>
             </div>
             <div className=' flex grow mr-4 sm:w-full p-1'>
-              <select name="sections" id="sections" className='text-black w-[50px] rounded-l bg-slate-200 text-[14px] text-center'>
+              <select name="sections" id="sections" className='text-black w-[50px] rounded-l bg-slate-200 text-[14px] pl-2'>
                 {dropdown.map((opt) => <option value={opt}>{opt}</option> )}
               </select>
               <input type="text" className='grow text-black pl-2 '/>
