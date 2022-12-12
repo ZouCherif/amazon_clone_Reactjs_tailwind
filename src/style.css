@@ -10,5 +10,13 @@
 
 .default-nav{
     background: none!important;
-    top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0!important;
+    height: 250px!important;
+    width: 70px!important;
+    top: 0;
+}
+.default-nav:focus{
+    border:3px solid rgb(100, 116, 197)!important;
 }

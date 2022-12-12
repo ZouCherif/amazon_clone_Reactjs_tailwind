@@ -8,7 +8,7 @@ function MainImages() {
     <div>
         <Slide>
          {images.map((image, index)=> (
-            <div className="" key={index}>
+            <div key={index}>
               <div className='w-full h-[600px] bg-cover bg-center' style={{'backgroundImage': `url(${image.url})`}}>
               </div>
             </div>
