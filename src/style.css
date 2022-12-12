@@ -8,4 +8,7 @@
     box-sizing: border-box;
 }
 
-
+.default-nav{
+    background: none!important;
+    top: 100px;
+}

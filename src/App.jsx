@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App relative">
       <NavBar />
-      <div className="max-w-[1500px]">
+      <div className="max-w-[1500px] mx-auto">
         <MainImages/>
       </div>
     </div>
