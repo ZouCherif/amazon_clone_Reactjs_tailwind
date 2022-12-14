@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App relative">
       <NavBar />
-      <div className="max-w-[1500px] mx-auto">
+      <div className="max-w-[1500px] mx-auto relative">
         <MainImages/>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-4 absolute top-[250px] px-4">
           {cardsData.section1.map((item)=>(
             <Card data={item}/>
           ))}
