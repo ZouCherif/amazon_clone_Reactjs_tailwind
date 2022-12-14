@@ -14,7 +14,7 @@ function MainImages() {
             </div>
           ))} 
         </Slide>
-      </div>
+    </div>
   )
 }
 

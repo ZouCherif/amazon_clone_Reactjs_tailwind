@@ -5,7 +5,6 @@ import { AiOutlineSearch } from "react-icons/ai";
 import {CgShoppingCart} from "react-icons/cg"
 import { BsList } from "react-icons/bs";
 import {HiOutlineLocationMarker} from "react-icons/hi"
-import { GrClose } from "react-icons/gr";
 import LanguageDropdownMenu from './LanguageDropdownMenu'
 import AccountLists_Dropdown_menu from './AccountLists_Dropdown_menu';
 import { SideBar } from './SideBar';
