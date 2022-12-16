@@ -4,14 +4,19 @@ import {cardsData} from './data'
 function App() {
 
   return (
-    <div className="App">
+    <div className="App bg-[#EAEDED]">
       <NavBar />
       <div className="max-w-[1500px] mx-auto relative">
         <MainImages/>
-        <div className="grid grid-cols-4 gap-4 absolute top-[250px] px-4">
-          {cardsData.section1.map((item)=>(
-            <Card data={item}/>
-          ))}
+        <div className="px-4">
+          <div className="grid grid-cols-4 gap-4 absolute top-[250px] pr-4">
+            {cardsData.section1.map((item)=>(
+              <Card data={item}/>
+            ))}
+          </div>
+          <div className="w-full h-[900px]">
+
+          </div>
         </div>
       </div>
     </div>

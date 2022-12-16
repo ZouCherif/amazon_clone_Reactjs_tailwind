@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card(props) {
   return (
-    <div className='p-4 h-auto w-auto border-black border-2 bg-white'>
+    <div className='p-4 h-auto w-auto bg-white'>
         <h3 className='mb-2 text-[21px] font-bold'>{props.data.title}</h3>
         <div className={props.data.images.length != 1? 'grid grid-cols-2 gap-1': ''}>
             {props.data.images.map((pic)=>(
