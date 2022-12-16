@@ -5,7 +5,7 @@ import { images } from '../data'
 
 function MainImages() {
   return (
-    <div>
+    <div className='mb-[430px]'>
         <Slide>
          {images.map((image, index)=> (
             <div key={index}>
