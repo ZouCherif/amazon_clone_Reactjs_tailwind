@@ -15,7 +15,7 @@ export const SideBar = (props) => {
   const [isShown2, setIsShown2] = React.useState(false)
 
   return (
-    <div className={`z-20 absolute h-screen w-[350px] bg-white ${props.isOpen? 'translate-x-0' :'-translate-x-full'} ease-in-out duration-500 top-0 left-0`}>
+    <div className={`z-20 fixed h-screen w-[350px] bg-white ${props.isOpen? 'translate-x-0' :'-translate-x-full'} ease-in-out duration-500 top-0 left-0`}>
       <div className='cursor-pointer flex bg-[#232f3e] text-white h-[6.5%] p-2'>
         <div className="w-[25px] h-[25px] ml-6 mr-2 mt-[2px]" style={profilIconStyle}></div>
         <p className='text-[19px] font-[700]'>Hello, Sign in</p>

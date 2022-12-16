@@ -8,6 +8,7 @@ import {HiOutlineLocationMarker} from "react-icons/hi"
 import LanguageDropdownMenu from './LanguageDropdownMenu'
 import AccountLists_Dropdown_menu from './AccountLists_Dropdown_menu';
 import { SideBar } from './SideBar';
+import useScrollBlock from '../rmScrollHook'
 
 
 import { IoMdClose } from "react-icons/io";
@@ -15,6 +16,7 @@ const NavBar = () => {
   const [language, setLanguage] = React.useState(false)
   const [accountLists, setaccountLists] = React.useState(false)
   const [isOpen, setIsOpen] = React.useState(false)
+  const [blockScroll, allowScroll] = useScrollBlock();
 
   return (
     <div>
@@ -59,7 +61,10 @@ const NavBar = () => {
         </div>  
         <div className='flex p-[3px] pl-4 bg-[#232f3e] text-white h-fit text-[14px] font-bold'>
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'
-           onClick={() => setIsOpen(!isOpen)}>
+           onClick={() =>{
+            setIsOpen(!isOpen)
+            blockScroll()
+          }}>
             <p className='flex items-center'><BsList className='mr-[2px]' size={23} strokeWidth={0.4}/>All</p>
           </div>
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'><p>Today's Deals</p></div>
@@ -69,8 +74,11 @@ const NavBar = () => {
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'><p>Sell</p></div>
           <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1 ml-auto'><p>Shop great deals now</p></div>
         </div>
-        <div className={`transition-opacity duration-500 z-10 ${isOpen? "opacity-80": "opacity-0 hidden"} absolute h-screen w-screen bg-black top-0 right-0`}
-          onClick={() => setIsOpen(!isOpen)}>
+        <div className={`transition-opacity duration-500 z-10 ${isOpen? "opacity-80": "opacity-0 hidden"} fixed h-screen w-screen bg-black top-0 right-0`}
+          onClick={() => {
+            setIsOpen(!isOpen)
+            allowScroll()
+            }}>
             <IoMdClose style={{color: "white", position: "absolute", left: "350", cursor: "pointer", marginLeft: "7", marginTop: "10"}} size={35}/>
         </div>
         <SideBar isOpen={isOpen} />

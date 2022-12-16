@@ -4,7 +4,7 @@ import {cardsData} from './data'
 function App() {
 
   return (
-    <div className="App relative">
+    <div className="App">
       <NavBar />
       <div className="max-w-[1500px] mx-auto relative">
         <MainImages/>
