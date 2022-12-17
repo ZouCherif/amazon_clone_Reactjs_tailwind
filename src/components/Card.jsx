@@ -5,11 +5,11 @@ function Card(props) {
   return (
     <div className={`p-4 h-auto w-auto border-2 bg-white`}>
         <h3 className='mb-2 text-[21px] font-bold'>{props.data.title}</h3>
-        <div className={bool? 'grid grid-cols-2 gap-1': ''}>
+        <div className={bool? 'grid grid-cols-2 gap-1 h-[310px]': ' h-[310px]'}>
             {props.data.images.map((pic)=>(
-              <div className={`${!bool? "h-[310px]": "w-[153px] h-[128px]"}`}>
-                <img src={pic} alt="" className={`cursor-pointer mb-4 mx-auto ${!bool? 'h-full': ''}`}/> 
-                {bool && <p></p>}
+              <div className={`${!bool? "h-full": "w-[153px] h-[128px]"} cursor-pointer`}>
+                <img src={pic.url} alt="" className={`mb-4 mx-auto ${!bool? 'h-full': 'h-[100px]'}`}/> 
+                {bool && <p className='text-[12px]'>{pic.title}</p>}
               </div>
             ))}
         </div>
