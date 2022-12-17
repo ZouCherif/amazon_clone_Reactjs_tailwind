@@ -21,7 +21,7 @@ export const listsAccount = [
         name: 'Your Account',
         links: [
             'Account',
-            'Orders', 'Recommendations', 'Browsing History','Watchlist', 'Video Purchases & Rentals',
+            'types', 'Recommendations', 'Browsing History','Watchlist', 'Video Purchases & Rentals',
            ' Kindle Unlimited',
             'Content & Devices',
            ' Subscribe & Save Items',
@@ -100,21 +100,27 @@ export const cardsData =
     {
         section1: [
             {
+                type: 1,
                 title: "Get fit at home",
                 images: ["https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg"],
-                order: "7"
             },
             {
+                type: 1,
                 title: "Easy returns",
                 images: ["https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_1x._SY304_CB432774714_.jpg"]
-                ,order: "3"
             },
             {
+                type: 1,
                 title: "Health & Personal Care",
                 images: ["https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg"]
-                ,order: "4"
             },
             {
+                type: 2,
+                title: "Sign in for the best experience",
+                image: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_1x._CB418309979_.jpg",
+            },
+            {
+                type: 1,
                 title: "Gaming accessories",
                 images: [
                     "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg",
@@ -122,14 +128,14 @@ export const cardsData =
                     "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg",
                     "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg"
                 ],
-                order: "5"
             },
             {
+                type: 1,
                 title: "Dresses",
                 images: ["https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/Fuji_dash_dress_1X._SY304_CB626369146_.jpg"]
-                ,order: "1"
             },
             {
+                type: 1,
                 title: "Shop by Category",
                 images: [
                     "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/computer120x._SY85_CB468850970_.jpg",
@@ -137,18 +143,17 @@ export const cardsData =
                     "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Baby120X._SY85_CB468850882_.jpg",
                     "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Toys120X._SY85_CB468851693_.jpg"
                 ],
-                order: "9"
 
             },
             {
+                type: 1,
                 title: "Electronics",
                 images: ["https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg"]
-                , order: "8"
             },
             {
+                type: 1,
                 title: "Beauty picks",
                 images: ["https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg"]
-                ,order: "6"
             }
         ],
         section2: [
@@ -296,7 +301,7 @@ export const footerLinks =[
                 link: ""
             },
             {
-                name: "Your Orders",
+                name: "Your types",
                 link: ""
             },
             {
