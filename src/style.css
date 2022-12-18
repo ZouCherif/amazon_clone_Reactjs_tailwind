@@ -22,3 +22,14 @@
     border:3px solid rgb(100, 116, 197)!important;
 }
 
+.carousel ::-webkit-scrollbar {
+    height: 6px;
+}
+
+.carousel ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+.carousel ::-webkit-scrollbar-thumb:hover{
+    background: rgb(106, 106, 106);
+}

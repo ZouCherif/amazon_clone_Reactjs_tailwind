@@ -1,6 +1,7 @@
 import React from "react"
-import {NavBar, MainImages, Card} from './components'
-import {cardsData} from './data'
+import {NavBar, MainImages, Card, Carousel} from './components'
+import {cardsData, CarouselData} from './data'
+
 function App() {
 
   return (
@@ -23,8 +24,8 @@ function App() {
               )
             })}
           </div>
-          <div className="w-full h-[200px]">
-              
+          <div className="mt-[530px]">
+            <Carousel data={CarouselData[0]}/>
           </div>
         </div>
       </div>
