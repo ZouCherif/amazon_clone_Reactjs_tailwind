@@ -24,7 +24,7 @@ function App() {
             })}
           </div>
           <div className="w-full h-[200px]">
-
+              
           </div>
         </div>
       </div>

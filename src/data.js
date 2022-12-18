@@ -186,13 +186,13 @@ export const cardsData =
                     url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg"
                 }]
             },
-            {
-                type: 1,
-                title: "Beauty picks",
-                images: [{
-                    url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg"
-                }]
-            }
+            // {
+            //     type: 1,
+            //     title: "Beauty picks",
+            //     images: [{
+            //         url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg"
+            //     }]
+            // }
         ],
         section2: [
             {
@@ -237,6 +237,46 @@ export const cardsData =
             },
         ]
     }
+
+
+
+export const CarouselData = [
+    {
+        title: "Top Sellers in Books for you",
+        urls: [
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71yy3vIVptL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61bPiEPsl4L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/614JV4NOuNL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61wHjXusSdL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61tKEVbKaQL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61MVwkqsHbL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61XRWGuKThL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61hXNZ7p0-S._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51LS7arqYHL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61kUTeDJG9L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61NMcOzUT2L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71UNSEkBdHL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71UNSEkBdHL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61GOxTm8+IL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/719sGPqf7AL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51x1zc1N4fL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61ZUIR7Z0HL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/610YqVAhq9L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/611TevMxayL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61QMJGNy-xL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61yFaJaA4BL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61yFaJaA4BL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81e40UsNUhL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81nXjjtWDjL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71zZs1TfG6L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71cDwKGthVL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61muN5O+luL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51+KRslMFVL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61NnZ4V1nhL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/911s0ic+JcL._AC_SY200_.jpg",
+        ]
+    }
+]
 
 export const footerLinks =[
     {
