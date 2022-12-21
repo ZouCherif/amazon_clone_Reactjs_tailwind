@@ -26,6 +26,7 @@ function App() {
           </div>
           <div className="mt-[530px]">
             <Carousel data={CarouselData[0]}/>
+            <Carousel data={CarouselData[1]}/>
           </div>
         </div>
       </div>

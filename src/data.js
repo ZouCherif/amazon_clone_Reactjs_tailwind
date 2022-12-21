@@ -275,6 +275,21 @@ export const CarouselData = [
             "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61NnZ4V1nhL._AC_SY200_.jpg",
             "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/911s0ic+JcL._AC_SY200_.jpg",
         ]
+    },
+    {
+        title: "Shop gifts for everyone on your list",
+        urls: [
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_CML_1x._CB608464074_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_StockingStuffers_1x._CB606658764_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_Fashion_1x._CB608464074_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_Home-Gifts_1x._CB608464069_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_Toys-gifts_1x._CB608464069_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_Electronics_1x._CB608464074_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_HolidayEssentials_1x._CB608159058_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_Beauty_1x._CB608464074_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_GiftsCards_1x._CB608464069_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_HomePrep_1x._CB608159058_.jpg"        
+        ]
     }
 ]
 
