@@ -196,30 +196,68 @@ export const cardsData =
         ],
         section2: [
             {
-                title: "Shop activity trackers and smartwatches"
+                title: "New arrivals in Toys",
+                images: [{url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_1X._SY304_CB639759658_.jpg"}]
             },
             {
-                title: "Shop Laptops & Tablets"
+                title: "For your Fitness Needs",
+                images: [{url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg"}]
             },
             {
-                title: "Gifts for every stocking"
+                title: "Gifts for every stocking",
+                images: [
+                    {
+                        title: "Shop all",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_ShopAll_DT_1x._SY116_CB606650457_.jpg"},
+                    {
+                        title: "Under 30$",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under30_DT_1x._SY116_CB606650457_.jpg"},
+                    {
+                        title: "Under 20$",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under20_DT_1x._SY116_CB606650457_.jpg"},
+                    {
+                        title: "under 10$",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under10_DT_1x._SY116_CB606650457_.jpg"},
+                ]
             },
             {
-                title: "​​Great gifts for everyone"
+                title: "​Shop activity trackers and smartwatches",
+                images: [{url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg"}]
             },
         ],
         section3: [
             {
-                title: "Deals in Tools and Home Improvement"
+                title: "Kindle E readers",
+                images: [{url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Desktop_Dash_Kindle_1x._SY304_CB639752818_.jpg"}]
             },
             {
-                title: "New arrivals in Toys"
+                title: "Shop Laptops & Tablets",
+                images: [{url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg"}]
             },
             {
-                title: "Kindle E readers"
+                title: "Create with strip lights",
+                images: [{url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_StripLighting_379x304_1X_en_US._SY304_CB418597476_.jpg"}]
             },
             {
-                title: "Gaming merchandise"
+                title: "Gaming merchandise",
+                images: [
+                    {
+                        title: "Apparel",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Apparel_1x._SY116_CB667159060_.jpg"
+                    },
+                    {
+                        title: "Hats",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Hat_1x._SY116_CB667159060_.jpg"
+                    },
+                    {
+                        title: "Action figures",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Figure_1x._SY116_CB667159060_.jpg"
+                    },
+                    {
+                        title: "Mugs",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mug_1x._SY116_CB667159063_.jpg"
+                    }
+                ]
             },
         ],
         section4: [
@@ -289,6 +327,60 @@ export const CarouselData = [
             "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_Beauty_1x._CB608464074_.jpg",
             "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_GiftsCards_1x._CB608464069_.jpg",
             "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/DiscoTec/2022/HOL22/GW/DesktopShoveler/Shoveler_HomePrep_1x._CB608159058_.jpg"        
+        ]
+    },
+    {
+        title: "Top Sellers in Toys for you",
+        urls:[
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81WnS3RNonL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/91jLIfnfDnL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61WJ+MrhfgL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ToWCaV39L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61ubnxWaMfL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61drHEh83cL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71Yu4aR4E9L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61hdnqK1BPL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/715w8u+Wh9L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71NEO7kHbLL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81bDeTtpGsL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81bDeTtpGsL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81wIlpe7NpL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71wQb2LWUkL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/7139Guck3SL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81d-XnV6C1L._AC_SY200_.jpg",
+        ]
+    },
+    {
+        title: "Popular products in Beauty internationally",
+        urls: [
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71J0BtuYB2L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61VzSDlgfiL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71GNGT1N0eL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/610QWc96DIL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81ve07lAj4L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/713ypytLv8L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/713ypytLv8L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51nFUxdgIZL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61pyBSQ-WhL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51FGP3kXhKL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61HUQia1zmL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51qee-j+GNL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81DgmqymSvS._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51X4PaE9XES._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51LzqlTPanL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51k9YsgXwdS._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61005K7VJFL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71TMVII-7YL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61pEJ2-A+SL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71S7YgslTKL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61+H1W+rGWL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ASnkVv2bL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/717swKW9rYL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/715-Vkvgr5L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81xxPK42gGL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71sgUGuL88L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81pvCwITKYL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71rEQiSeqgL._AC_SY200_.jpg",
         ]
     }
 ]

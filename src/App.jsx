@@ -27,6 +27,18 @@ function App() {
           <div className="mt-[530px]">
             <Carousel data={CarouselData[0]}/>
             <Carousel data={CarouselData[1]}/>
+            <div className="grid grid-cols-4 gap-4 mb-4">
+              {cardsData.section2.map((item)=>(
+                <Card data={item}/>
+              ))}
+            </div>
+            <Carousel data={CarouselData[2]}/>
+            <Carousel data={CarouselData[3]}/>
+            <div className="grid grid-cols-4 gap-4 mb-4">
+              {cardsData.section3.map((item)=>(
+                <Card data={item}/>
+              ))}
+            </div>
           </div>
         </div>
       </div>
