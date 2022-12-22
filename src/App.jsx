@@ -1,6 +1,6 @@
 import React from "react"
-import {NavBar, MainImages, Card, Carousel, StartHere} from './components'
-import {cardsData, CarouselData, footerLinks} from './data'
+import {NavBar, MainImages, Card, Carousel, StartHere, Footer} from './components'
+import {cardsData, CarouselData} from './data'
 
 
 function App() {
@@ -66,26 +66,7 @@ function App() {
           <span className="text-[14px]">Back To Top</span>
         </div>
       </a>
-      <footer className="">
-        <div className="bg-[#232f3e] py-8 text-white">
-          <div className="w-[70%] mx-auto mb-6">
-            <div className="flex justify-around">
-              {footerLinks.map((link)=>(
-                <div className="w-[165px]">
-                  <h3 className="font-bold mb-2">{link.title}</h3>
-                  <ul>
-                    {link.links.map((item)=>(
-                      <li className="text-[14px] mb-1 cursor-pointer hover:underline">{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>  
-          </div>
-          <hr />
-        </div>
-
-      </footer>
+      <Footer/>
     </div>
   )
 }

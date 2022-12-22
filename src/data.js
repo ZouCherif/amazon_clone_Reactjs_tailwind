@@ -534,5 +534,138 @@ export const footerLinks =[
 ]
 
 
-
-
+export const footerLinks2 = [
+    {
+        title: "Amazon Music",
+        subtitle: "Stream millions of songs"
+    },
+    {
+        title: "Amzon Advertising",
+        subtitle: "Find, attract, and engage customers"
+    },
+    {
+        title: "Amazon Drive",
+        subtitle: "Cloud storage from Amazon	"
+    },
+    {
+        title: "6pm",
+        subtitle: "Score deals on fashion brands"
+    },
+    {
+        title: "AbeBooks",
+        subtitle: "Books, art & collectibles"
+    },
+    {
+        title: "ACX",
+        subtitle: "Audiobook Publishing Made Easy"
+    },
+    {
+        title: "Sell on Amazon",
+        subtitle: "Start a Selling Account"
+    },
+    {
+        title: "Amazon Business",
+        subtitle: "Everything For Your Business"
+    },
+    {
+        title: "AmazonGlobal",
+        subtitle: "Ship Orders Internationally	"
+    },
+    {
+        title: "Home services",
+        subtitle: "Experienced Pros Happiness Guarantee	"
+    },
+    {
+        title: "Amazon lgnite",
+        subtitle: "Sell your original Digital Educational Resources	"
+    },
+    {
+        title: "Amazon web services",
+        subtitle: "Scalable Cloud Computing Services"
+    },
+    {
+        title: "Audibla",
+        subtitle: "Listen to Books & Original Audio Performances"
+    },
+    {
+        title: "Book Depository",
+        subtitle: "Books With Free Delivery Worldwide"
+    },
+    {
+        title: "Box office Mojo",
+        subtitle: "Find Movie Box Office Data"
+    },
+    {
+        title: "ComoXology",
+        subtitle: "Thousands of Digital Comics	"
+    },
+    {
+        title: "DPReview",
+        subtitle: "Digital Photography	"
+    },
+    {
+        title: "Fabric",
+        subtitle: "Sewing, Quilting & Knitting"
+    },
+    {
+        title: "Goodreads",
+        subtitle: "Book reviews & recommendations"
+    },
+    {
+        title: "IMDb",
+        subtitle: "Movies, TV & Celebrities"
+    },
+    {
+        title: "IMDbPro",
+        subtitle: "Get Info Entertainment Professionals Need"
+    },
+    {
+        title: "Kindle Direct Publishing",
+        subtitle: "Indie Digital & Print Publishing Made Easy"
+    },
+    {
+        title: "Prime Video Direct",
+        subtitle: "Video Distribution Made Easy"
+    },
+    {
+        title: "Shopbop",
+        subtitle: "Designer Fashion Brands"
+    },
+    {
+        title: "Woot!",
+        subtitle: "Deals and Shenanigans	"
+    },
+    {
+        title: "Zappos",
+        subtitle: "Shoes & Clothing"
+    },
+    {
+        title: "Ring",
+        subtitle: "Smart Home Security Systems"
+    },
+    {
+        title: "eero WiFi",
+        subtitle: "Stream 4K Video in Every Room"
+    },    
+    {
+        title: "",
+        subtitle: ""
+    },
+    {
+        title: "Blink",
+        subtitle: "Smart Security for Every Home"
+    },
+    {
+        title: "Neighbors App",
+        subtitle: "Real-Time Crime & Safety Alerts"
+    },
+    {
+        title: "Amazon Subscription Boxes",
+        subtitle: "Top subscription boxes – right to your door"
+    },
+    {
+        title: "PillPack",
+        subtitle: "Pharmacy Simplified"
+    },
+    
+]

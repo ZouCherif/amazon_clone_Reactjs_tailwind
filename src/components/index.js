@@ -3,6 +3,7 @@ import MainImages from './MainImages'
 import Card from './Card'
 import Carousel from './Carousel'
 import StartHere from './StartHere'
+import Footer from './Footer'
 
 export {
     NavBar,
@@ -10,4 +11,5 @@ export {
     Card,
     Carousel,
     StartHere,
+    Footer
 }
