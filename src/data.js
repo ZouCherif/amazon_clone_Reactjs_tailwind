@@ -492,126 +492,43 @@ export const footerLinks =[
     {
         title: "Get to Know Us",
         links: [
-            {
-                name: "Careers",
-                link: "https://www.amazon.jobs/en/"
-            },
-            {
-                name: "BLog",
-                link: "https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer"
-            },
-            {
-                name: "About Amazon",
-                link: "https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer"
-            },
-            {
-                name: "investor Relations",
-                link: "https://ir.aboutamazon.com/overview/default.aspx"
-            },
-            {
-                name: "Amazon Devices",
-                link: "https://www.amazon.com/gp/browse.html?node=2102313011&ref_=footer_devices"
-            },
-            {
-                name: "Amazon Science",
-                link: "https://www.amazon.science/"
-            },
+                "Careers","BLog","About Amazon","investor Relations","Amazon Devices","Amazon Science",     
         ]
     },
     {
         title: "Make Money with Us",
         links: [
-            {
-                name: "Sell products on Amazon",
-                link: "https://sell.amazon.com/sell"
-            },
-            {
-                name: "Sell on Amazon Business",
-                link: ""
-            },
-            {
-                name: "Sell apps on Amazon",
-                link: ""
-            },
-            {
-                name: "Become an Affiliate",
-                link: ""
-            },
-            {
-                name: "Advertise Your Products",
-                link: ""
-            },
-            {
-                name: "Self-Publish with Us",
-                link: ""
-            },
-            {
-                name: "Host an Amazon Hub",
-                link: ""
-            },
-            {
-                name: "›See More Make Money with Us",
-                link: ""
-            },
+            "Sell products on Amazon",
+            "Sell on Amazon Business",
+             "Sell apps on Amazon",
+             "Become an Affiliate",
+             "Advertise Your Products",
+             "Self-Publish with Us",
+             "Host an Amazon Hub",
+             "› See More Make Money with Us",
         ]
+
     },
     {
         title: "Amazon Payment Products",
         links: [
-            {
-                name: "Amazon Business Card",
-                link: ""
-            },
-            {
-                name: "Shop with Points",
-                link: ""
-            },
-            {
-                name: "Reload Your Balance",
-                link: ""
-            },
-            {
-                name: "Amazon Currency Converter",
-                link: ""
-            },
-            
+            "Amazon Business Card",               
+            "Shop with Points",
+            "Reload Your Balance",              
+            "Amazon Currency Converter"
         ]
     },
     {
         title: "Let Us Help You",
         links: [
-            {
-                name: "Amazon and COVID-19",
-                link: ""
-            },
-            {
-                name: "Your Account",
-                link: ""
-            },
-            {
-                name: "Your types",
-                link: ""
-            },
-            {
-                name: "Shipping Rates & Policies",
-                link: ""
-            },
-            {
-                name: "Returns & Replacements",
-                link: ""
-            },
-            {
-                name: "Manage Your Content and Devices",
-                link: ""
-            },
-            {
-                name: "Amazon Assistant",
-                link: ""
-            },
-            {
-                name: "Help",
-                link: ""
-            },
+            "Amazon and COVID-19",             
+            "Your Account",
+            "Your types",       
+            "Shipping Rates & Policies",         
+            "Returns & Replacements",          
+            "Manage Your Content and Devices",          
+            "Amazon Assistant",          
+            "Help",       
         ]
     },
 ]
