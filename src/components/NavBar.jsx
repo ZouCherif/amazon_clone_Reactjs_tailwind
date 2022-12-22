@@ -19,7 +19,7 @@ const NavBar = () => {
   const [blockScroll, allowScroll] = useScrollBlock();
 
   return (
-    <div>
+    <div id='top'>
         <div className='flex justify-around bg-[#131921] w-full text-white p-[6px] h-[60px] leading-[15px]'>
             <div className='w-[120px] flex-none place-self-center border-[1px] border-transparent hover:border-white cursor-pointer'>
               <img src={logo} alt="Amazon" className='h-[30px] m-1'/>

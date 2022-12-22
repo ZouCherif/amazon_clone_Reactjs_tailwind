@@ -8,9 +8,9 @@ function StartHere() {
 
     }
   return (
-    <div className='w-fit'>
-        <button style={buttonStyle} className='bg-no-repeat p-[6px] w-[170px] rounded-[5px] border-[1px] border-stone-400 text-[14px]'>Sign in</button>
-        <p className='text-[12px] w-fit mt-2 cursor-text'>New customer? <span className='text-[12px]  text-blue-500 hover:underline cursor-pointer'>Start here</span></p>
+    <div className='w-full'>
+        <button style={buttonStyle} className='bg-no-repeat h-[30px] w-full rounded-[5px] border-[1px] border-stone-400 text-[14px]'>Sign in</button>
+        <p className='text-[12px] text-center mt-2 cursor-text '>New customer? <span className='text-[12px] text-blue-500 hover:underline cursor-pointer'>Start here</span></p>
     </div>
   )
 }

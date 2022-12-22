@@ -262,16 +262,54 @@ export const cardsData =
         ],
         section4: [
             {
-                title: "A holiday home starts here"
+                title: "Shop Pet supplies",
+                images: [{url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Pets_1X._SY304_CB639746743_.jpg"}]
             },
             {
-                title: "For your Fitness Needs"
+                title: "Deals in Tools and Home Improvement",
+                images: [{url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/home/THILGMA/Holiday2022/Graphics/XCM_CUTTLE_1475305_2610205_379x304_1X_en_US._SY304_CB608600856_.jpg"}]
             },
             {
-                title: "Shop Pet supplies"
+                title: "A holiday home starts here",
+                images: [
+                    {
+                        title: "Décor",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/home/kariep/T522/Decor1-186x116._SY116_CB607560774_.jpg"
+                    },
+                    {
+                        title: "Kitchen",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/home/kariep/T522/Kitchen1-186x116._SY116_CB607560774_.jpg"
+                    },
+                    {
+                        title: "Entertaining",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/home/kariep/T522/Entertaining-186x116._SY116_CB607560774_.jpg"
+                    },
+                    {
+                        title: "Bedding & Bath",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/home/kariep/T522/Bedding-186x116._SY116_CB607560774_.jpg"
+                    }
+                ]
             },
             {
-                title: "Create with strip lights"
+                title: "Deals on your favorite gifts",
+                images: [
+                    {
+                        title: "Clothing",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/HOL22/GW/DQC/DEC/F1_DQC_DEC_AF_XDIV_LMG_CLOTHING_186x116._SY116_CB605092748_.jpg"
+                    },
+                    {
+                        title: "Shoes",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/HOL22/GW/DQC/DEC/F3_DQC_DEC_AF_XDIV_LMG_SHOES_186x116._SY116_CB605092748_.jpg"
+                    },
+                    {
+                        title: "Accessories",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/HOL22/GW/DQC/DEC/F2_DQC_DEC_AF_XDIV_LMG_ACCESSORIES_186x116._SY116_CB605092748_.jpg"
+                    },
+                    {
+                        title: "Jewerly",
+                        url: "https://images-na.ssl-images-amazon.com/images/W/WEBP_402378-T2/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/HOL22/GW/DQC/DEC/F4_DQC_DEC_AF_XDIV_LMG_JEWELRY_186x116._SY116_CB605092748_.jpg"
+                    }
+                ]
             },
         ]
     }
@@ -381,6 +419,71 @@ export const CarouselData = [
             "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71sgUGuL88L._AC_SY200_.jpg",
             "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81pvCwITKYL._AC_SY200_.jpg",
             "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71rEQiSeqgL._AC_SY200_.jpg",
+        ]
+    },
+    {
+        title: "Top Sellers in Baby Products for you",
+        urls: [
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71oJsW-NNbL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/6145C49nf2L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ZScGgNzoL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71Nxw8wKu5L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61ppBUYwQXL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/714FWCBGjBL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/714UKSNlcSL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ephqt1fwL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61xrET8MrzL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61bsvKO2j3L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61LX80WIiVL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81QoZWKqeQL._AC_SY200_.jpg",
+        ]
+    },
+    {
+        title: "International top sellers",
+        urls: [
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71OML51jBNL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/8142abK6tSL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71S7YgslTKL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/91RL+MhTWbL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71gPwsiwmmL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71NSJNcfK9L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71Z+wNMRYYL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71Z+wNMRYYL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71VfR7Xhk8L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/717dWfmxXVL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71L2i2B4DIL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61pP5gObVXL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61lzum+9qCL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61Cr8XDD6JL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ZEYGj2gBL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51qee-j+GNL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51f2hkWjTlL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/91FIbLIsttL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71DqJHGGJkS._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71IVNlezlUL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81EdWZ0C95L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61IueiL1j0L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71QdYiisHoL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61XzOG9rAwL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/819sV9tS5UL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/613xEK90aHL._AC_SY200_.jpg"
+        ]
+    },
+    {
+        title: "International top sellers in Kitchen",
+        urls: [
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/813YSObJTuL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61k3rrE4b-L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71pvFbgQ5wL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61kS72mQraL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51F8kv-hxrL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61ebQZgqSFL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81IC5+bWDgL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/5197ccJGQQL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61JLWnNq+kL._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61oKj5DUS6L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51tX8xIvD-L._AC_SY200_.jpg",
+            "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61z0bFueFsL._AC_SY200_.jpg"
         ]
     }
 ]
