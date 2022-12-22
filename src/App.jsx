@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App bg-[#EAEDED]">
       <NavBar />
-      <div className="max-w-[1500px] mx-auto relative">
+      <div className="max-w-[1500px] mx-auto">
         <MainImages/>
         <div className="px-4">
-          <div className="grid grid-cols-4 gap-4 absolute top-[250px] pr-4">
+          <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 gap-4 md:pr-4">
             {cardsData.section1.map((item)=>{
               return(item.type === 1 ?
                 <Card data={item}/>:
@@ -25,24 +25,24 @@ function App() {
               )
             })}
           </div>
-          <div className="mt-[530px]">
+          <div className="mt-4">
             <Carousel data={CarouselData[0]}/>
             <Carousel data={CarouselData[1]}/>
-            <div className="grid grid-cols-4 gap-4 mb-4">
+            <div className="grid md:grid-cols-4 xs:grid-cols-2 grid-cols-1 gap-4 mb-4">
               {cardsData.section2.map((item)=>(
                 <Card data={item}/>
               ))}
             </div>
             <Carousel data={CarouselData[2]}/>
             <Carousel data={CarouselData[3]}/>
-            <div className="grid grid-cols-4 gap-4 mb-4">
+            <div className="grid md:grid-cols-4 xs:grid-cols-2 grid-cols-1 gap-4 mb-4">
               {cardsData.section3.map((item)=>(
                 <Card data={item}/>
               ))}
             </div>
             <Carousel data={CarouselData[4]}/>
             <Carousel data={CarouselData[5]}/>
-            <div className="grid grid-cols-4 gap-4 mb-4">
+            <div className="grid md:grid-cols-4 xs:grid-cols-2 grid-cols-1 gap-4 mb-4">
               {cardsData.section4.map((item)=>(
                 <Card data={item}/>
               ))}

@@ -23,7 +23,7 @@ const NavBar = () => {
     <div id='top'>
       <div className='bg-[#131921] md:px-0 px-2 pb-2'>
         <div className='flex md:justify-around justify-end w-full text-white p-[6px] h-[60px] leading-[15px]'>
-          <div onClick={() =>{
+          <div className='md:hidden' onClick={() =>{
             setIsOpen(!isOpen)
             blockScroll()
           }}>
