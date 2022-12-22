@@ -5,6 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import {CgShoppingCart} from "react-icons/cg"
 import { BsList } from "react-icons/bs";
 import {HiOutlineLocationMarker} from "react-icons/hi"
+import {CgProfile} from "react-icons/cg"
 import LanguageDropdownMenu from './LanguageDropdownMenu'
 import AccountLists_Dropdown_menu from './AccountLists_Dropdown_menu';
 import { SideBar } from './SideBar';
@@ -20,29 +21,36 @@ const NavBar = () => {
 
   return (
     <div id='top'>
-        <div className='flex justify-around bg-[#131921] w-full text-white p-[6px] h-[60px] leading-[15px]'>
-            <div className='w-[120px] flex-none place-self-center border-[1px] border-transparent hover:border-white cursor-pointer'>
+      <div className='bg-[#131921] md:px-0 px-2 pb-2'>
+        <div className='flex md:justify-around justify-end w-full text-white p-[6px] h-[60px] leading-[15px]'>
+          <div onClick={() =>{
+            setIsOpen(!isOpen)
+            blockScroll()
+          }}>
+            <BsList className='mr-[2px]' size={35} strokeWidth={0.4}/>
+          </div>
+            <div className='w-[120px] flex-none mr-auto place-self-center border-[1px] border-transparent hover:border-white cursor-pointer'>
               <img src={logo} alt="Amazon" className='h-[30px] m-1'/>
             </div>
-            <div className='flex flex-none mr-5 border-[1px] border-transparent hover:border-white cursor-pointer items-center p-2'>
+            <div className='hidden md:flex flex-none mr-5 border-[1px] border-transparent hover:border-white cursor-pointer items-center p-2'>
               <HiOutlineLocationMarker  className='mr-[2px] mt-auto'/>
               <p className='text-[12px] text-[#ccc]'>Deliver to <br /><span className='text-[14px] text-white font-bold'>Algeria</span></p>
             </div>
-            <div className=' flex grow mr-4 sm:w-full p-1'>
+            <div className='md:flex hidden grow mr-4 sm:w-full p-1'>
               <select name="sections" id="sections" className='text-black w-[50px] rounded-l bg-slate-200 text-[14px] pl-2'>
                 {dropdown.map((opt) => <option value={opt}>{opt}</option> )}
               </select>
               <input type="text" className='grow text-black pl-2 '/>
               <button className='bg-orange-300 w-[40px] rounded-r pl-1'><AiOutlineSearch size={30} className='fill-black'/></button>
             </div>
-            <div className='flex items-center flex-none mr-4 border-[1px] border-transparent hover:border-white cursor-pointer p-2 relative' 
+            <div className='hidden md:flex items-center flex-none mr-4 border-[1px] border-transparent hover:border-white cursor-pointer p-2 relative' 
             onMouseEnter={() => setLanguage(true)}
             onMouseLeave={() => setLanguage(false)}>
               <img src={flag} alt="usa" className='h-[17px] w-[25px] pr-[3px]'/>
               <p className='font-bold text-[14px]'>EN</p>
               {language && <LanguageDropdownMenu />}
             </div>
-            <div className='flex-none mr-4 border-[1px] border-transparent hover:border-white cursor-pointer pt-2 px-1 relative'
+            <div className='md:block hidden flex-none mr-4 border-[1px] border-transparent hover:border-white cursor-pointer pt-2 px-1 relative'
             onMouseEnter={() => setaccountLists(true)}
             onMouseLeave={() => setaccountLists(false)}
             >
@@ -50,17 +58,26 @@ const NavBar = () => {
               <p className='font-bold text-[14px]'>Account & Lists</p>
               {accountLists && <AccountLists_Dropdown_menu />}
             </div>
-            <div className='flex-none mr-4 border-[1px] border-transparent hover:border-white cursor-pointer pt-2 px-1'>
+            <div className='md:block hidden flex-none mr-4 border-[1px] border-transparent hover:border-white cursor-pointer pt-2 px-1'>
               <p className='text-[12px]'>Returns</p>
               <p className='font-bold text-[14px]'>& Orders</p>
             </div>
-            <div className='flex flex-none mr-3 items-center border-[1px] border-transparent hover:border-white cursor-pointer p-2'>
+            <div className='md:hidden flex flex-none items-center font-bold cursor-pointer mr-2'>
+              <span className='text-[14px] mr-1'>Sign in {'>'}</span>
+              <CgProfile size={25}/>
+            </div>
+            <div className='flex flex-none md:mr-3 items-center border-[1px] border-transparent hover:border-white cursor-pointer p-2'>
               <CgShoppingCart size={35}/>
-              <p className='text-[14px] font-bold'>Cart</p>
+              <p className='text-[14px] font-bold md:block hidden'>Cart</p>
             </div>
         </div>  
+        <div className='md:hidden h-[50px] flex grow mr-4 sm:w-full p-1'>
+          <input type="text" className='grow text-black pl-2 rounded-tl rounded-bl'/>
+          <button className='bg-orange-300 w-[40px] rounded-r pl-1'><AiOutlineSearch size={30} className='fill-black'/></button>
+        </div>
+      </div>
         <div className='flex p-[3px] pl-4 bg-[#232f3e] text-white h-fit text-[14px] font-bold'>
-          <div className='cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'
+          <div className='md:block hidden cursor-pointer mr-3 border-[1px] border-transparent hover:border-white p-1'
            onClick={() =>{
             setIsOpen(!isOpen)
             blockScroll()
