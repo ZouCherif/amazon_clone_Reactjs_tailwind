@@ -11,7 +11,7 @@ function App() {
       <div className="max-w-[1500px] mx-auto">
         <MainImages/>
         <div className="px-4">
-          <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 gap-4 md:pr-4">
+          <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 gap-4">
             {cardsData.section1.map((item)=>{
               return(item.type === 1 ?
                 <Card data={item}/>:
@@ -54,7 +54,7 @@ function App() {
       <div className="bg-white mt-4 pt-6 pb-2">
           <hr className="mt-4 border-gray-300"/>
           <center>
-            <div className="w-[220px] my-6">
+            <div className="max-w-[220px] my-6">
               <p className="text-[13px] mb-2">See personalized recommendations</p>
               <StartHere/>
             </div>
