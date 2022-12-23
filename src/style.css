@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-
 .default-nav{
     background: none!important;
     padding-left: 20px;
@@ -33,4 +32,12 @@
 }
 .carousel ::-webkit-scrollbar-thumb:hover{
     background: rgb(106, 106, 106);
+}
+
+@media (max-width: 400px){
+    .default-nav{
+        height: 200px!important;
+        width: 50px!important;
+        padding: 0;
+    }
 }

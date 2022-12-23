@@ -8,9 +8,8 @@ function App() {
   return (
     <div className="App bg-[#EAEDED]">
       <NavBar />
-      <div className="max-w-[1500px] mx-auto">
-        <MainImages/>
-        <div className="px-4">
+      <MainImages/>
+      <div className="px-4 max-w-[1500px] mx-auto relative z-30 md:-mt-[350px] xs:-mt-[250px] -mt-24">
           <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 gap-4">
             {cardsData.section1.map((item)=>{
               return(item.type === 1 ?
@@ -49,7 +48,6 @@ function App() {
             </div>
             <Carousel data={CarouselData[6]}/>
           </div>
-        </div>
       </div>
       <div className="bg-white mt-4 pt-6 pb-2">
           <hr className="mt-4 border-gray-300"/>
