@@ -22,7 +22,7 @@ const NavBar = () => {
   return (
     <div id='top'>
       <div className='bg-[#131921] md:px-0 px-2 pb-2'>
-        <div className='flex md:justify-around justify-end w-full text-white p-[6px] h-[60px] leading-[15px]'>
+        <div className='flex md:justify-around justify-end w-full text-white xs:p-[6px] h-[60px] leading-[15px] items-center'>
           <div className='md:hidden' onClick={() =>{
             setIsOpen(!isOpen)
             blockScroll()
@@ -91,7 +91,7 @@ const NavBar = () => {
           <div className='cursor-pointer sm:mr-3 border-[1px] border-transparent hover:border-white p-1'><p>Sell</p></div>
           <div className='cursor-pointer sm:mr-3 border-[1px] border-transparent hover:border-white p-1 xs:ml-auto'><p>Shop great deals now</p></div>
         </div>
-        <div className={`transition-opacity duration-500 z-10 ${isOpen? "opacity-80": "opacity-0 hidden"} fixed h-screen w-screen bg-black top-0 right-0`}
+        <div className={`transition-opacity duration-500 z-20 ${isOpen? "opacity-80": "opacity-0 hidden"} fixed h-screen w-screen bg-black top-0 right-0`}
           onClick={() => {
             setIsOpen(!isOpen)
             allowScroll()

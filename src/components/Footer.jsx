@@ -25,17 +25,17 @@ function Footer() {
             </div>  
           </div>
           <hr/>
-          <div className='md:flex justify-end items-center md:w-[600px] max-w-[300px] mx-auto px-[30px] mt-6 text-gray-400 xs:text-[14px] text-[12px]'>
+          <div className='md:flex justify-end items-center md:w-[600px] mx-auto px-[30px] mt-6 text-gray-400 xs:text-[14px] text-[12px]'>
             <img src={logo} className="w-[80px] xs:mr-auto mx-auto h-6 cursor-pointer mb-2 "/>
-            <div className='flex cursor-pointer mr-2 border-[1px] p-2 items-center rounded-sm md:mb-0 mb-2 md:w-fit w-full relative' 
+            <div className='flex cursor-pointer md:mx-2 mx-auto border-[1px] p-2 items-center rounded-sm md:mb-0 mb-2 md:w-fit max-w-[200px] relative' 
             onMouseEnter={()=> setshow(true)}
             onMouseLeave={() => setshow(false)} >
                 <TbWorld className='mr-2'/>
                 <span>English</span>
                 {show && <LanguageDropdownMenu/>}
             </div>
-            <div className='mr-2 border-[1px] p-2 rounded-sm cursor-pointer md:mb-0 mb-2 md:w-fit w-full'><span className='mr-2'>$</span>USD - U.S.Dollar</div>
-            <div className='flex items-center border-[1px] p-2 rounded-sm cursor-pointer'><img src={flag} alt="" className='w-[20px] h-4 mr-1'/> United States</div>
+            <div className='md:mx-2 mx-auto border-[1px] p-2 rounded-sm cursor-pointer md:mb-0 mb-2 md:w-fit max-w-[200px]'><span className='mr-2'>$</span>USD - U.S.Dollar</div>
+            <div className='flex items-center border-[1px] p-2 rounded-sm cursor-pointer md:w-fit max-w-[200px] md:mx-0 mx-auto'><img src={flag} alt="" className='w-[20px] h-4 mr-1'/> United States</div>
           </div>
         </div>
         <div className='bg-[#131921] text-white pb-8'>
